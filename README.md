@@ -1,9 +1,9 @@
-### FX Swap Contracts
+## FX Swap Contracts
 
-## Install Dependencies
+### Install Dependencies
 `yarn`
 
-## Compile Contracts using Hardhat
+### Compile Contracts using Hardhat
 - Add fxcore network in `hardhat.config.js`:
 ```
 networks: {
@@ -39,7 +39,7 @@ networks: {
 ```
 - npx hardhat compile
 
-## Deploy Contracts using Hardhat
+### Deploy Contracts using Hardhat
 - npx hardhat run deploy-factory.js --network fxcore
 - Add the Factory and WFX address as constructor arguments inside `deploy-router.js` deployment script
 - npx hardhat run deploy-router.js --network fxcore
